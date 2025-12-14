@@ -1,0 +1,47 @@
+.ista{font-family: 'Montserrat', serif ;}
+.button.active
+{
+    border-radius: 20px !important;
+    border-radius: 0.4rem;
+    background: orangered !important;
+    color: #000 !important;
+    box-shadow: 2px 2px 12px -3px #fff !important;
+    box-shadow: inset 2px 2px 12px #000 !important;
+    border: 0;
+    cursor: pointer;
+    padding: 8px 20px ;
+    text-decoration: none;
+}
+.media-item
+{
+    position:relative; 
+    min-height: 50vh;min-width:350px;
+    max-height: 80vh;max-width:500px;
+    overflow: hidden;
+}
+.media-item .media-cover
+{
+    object-fit: contain;
+    height:100%;width:100%;
+    position: absolute;
+    top:0;left:0;
+}
+.hygiène-cover{height: 300px; width: 500px;}
+.desc {font-size: 1.2rem !important; font-weight: 500 !important;}
+
+#module3 {min-height: 100vh;}
+#module3 .media-item{scale: 1.2;}
+#module3 .media-cover{border-radius: 10px;}
+.person .media > *{position: absolute;top:0;left:0;height: 100%;width: 100%;border-radius: 20px;}
+.person .media
+{
+    position: relative;
+    height: 80vh;
+    max-width: 30vw;
+}
+
+.ServerOutfit
+{
+    max-height: 90vh;
+    max-width: max-content;
+}
