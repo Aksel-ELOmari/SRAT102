@@ -53,7 +53,20 @@ body::-webkit-scrollbar-thumb
     padding: .4rem;
 }
 
-
+.button.active,
+.main-menu a
+{
+    border-radius: 20px !important;
+    border-radius: 0.4rem;
+    background: orangered !important;
+    color: #000 !important;
+    box-shadow: 2px 2px 12px -3px #fff !important;
+    box-shadow: inset 2px 2px 12px #000 !important;
+    border: 0;
+    cursor: pointer;
+    padding: 8px 20px ;
+    text-decoration: none;
+}
 /* Basic */
 a {
   text-decoration: none !important;
