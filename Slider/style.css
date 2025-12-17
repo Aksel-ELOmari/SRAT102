@@ -66,6 +66,7 @@ a{
     font-size: 2em;
     font-weight: bold;
     line-height: 1.3em;
+    color:blue !important;
 }
 .carousel .list .item .topic{
     color: #f1683a;
