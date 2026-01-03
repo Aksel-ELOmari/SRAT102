@@ -5,8 +5,8 @@
 
 :root
 {
-  --text-color: #000!important;
-  --back-color:#fff !important;
+  --text-color: #fff!important;
+  --back-color:#000 !important;
   --add-color:blue !important;
   --secondary01:rgba(255, 166, 0, 0.801) !important;
   --section-bg:transparent ;
@@ -22,8 +22,8 @@
 }
 html{margin: 0;padding: 0;scroll-behavior: smooth !important;}
 body {
-    background: var(--text-color);
-    color: var(--back-color);
+    color: var(--text-color);
+    background: var(--back-color);
     font-family: var( --font-secondary);
     overflow-x: hidden !important;
     font-size: 20px;
