@@ -22,8 +22,8 @@
 }
 html{margin: 0;padding: 0;scroll-behavior: smooth !important;}
 body {
-    color: var(--text-color);
-    background: var(--back-color);
+    background: var(--text-color);
+    color: var(--back-color);
     font-family: var( --font-secondary);
     overflow-x: hidden !important;
     font-size: 20px;
